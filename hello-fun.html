@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Hello...</title>
+<style type="text/css">
+#mainContent {
+	font-family: Times;
+	font-size: xxxxxxxx-medium;
+	font-weight: bold;
+	background-color: #e6f1a9;
+	border-radius: 90px;
+	padding: 100px;
+	text-align: right;
+}
+.buttonStyle {
+	border-radius: 14px;
+	border: thick solid #F090f3;
+	padding: 2px;
+	background-color: #185472;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: #6f38ff;
+	width: 228px;
+}
+
+.buttonStyle:hover {
+	border: thick solid #FfCC00;
+	background-color: #FCF9D6;
+	color: #996633;
+	cursor: pointer;
+}
+.buttonStyle:active {
+	border: thick solid #99CC00;
+	background-color: #a5b922;
+	color: #66f9a0;
+	cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+<div id="mainContent">
+<p id="helloText">?</p>
+<button id="clickButton" class="buttonStyle">click me</button>
+</div>
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "Fact. Bears eat beets. Bears. Beets. Battlestar Galactica.";
+}
+</script>
+
+</body>
+</html>
