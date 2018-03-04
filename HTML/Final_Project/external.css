@@ -1,4 +1,13 @@
 div 
-#1 {
+#main {
     background-color:#CF6766;
+}
+#title {
+    background-color:#30415d;
+}
+#boxa {
+    background-color:#031424;
+}
+#boxb {
+    background-color:#8EAEBD;
 }
