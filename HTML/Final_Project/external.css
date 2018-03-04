@@ -1,13 +1,25 @@
-div 
 #main {
     background-color:#CF6766;
 }
 #title {
     background-color:#30415d;
+    text-align:center;
+    color:#CF6766;
 }
 #boxa {
     background-color:#031424;
+    color:white;
 }
 #boxb {
     background-color:#8EAEBD;
+}
+h2 {
+    text-align:center;
+}
+body {
+    background-color:#CF6766;
+}
+#mycarousel {
+    height:100px;
+    width:100px;
 }
