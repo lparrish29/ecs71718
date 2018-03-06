@@ -1,25 +1,34 @@
 #main {
     background-color:#CF6766;
+    font-family:helvetica;
 }
 #title {
     background-color:#30415d;
     text-align:center;
     color:#CF6766;
+    font-family:helvetica;
 }
 #boxa {
     background-color:#031424;
     color:white;
+    font-family:helvetica;
 }
 #boxb {
     background-color:#8EAEBD;
+    font-family:helvetica;
 }
 h2 {
     text-align:center;
+    font-family:helvetica;
 }
 body {
     background-color:#CF6766;
+    font-family:helvetica;
 }
 #mycarousel {
     height:100px;
     width:100px;
+}
+.carousel-inner > .item > img{
+margin:auto;
 }
