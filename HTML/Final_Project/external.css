@@ -1,29 +1,32 @@
 #main {
-    background-color:#CF6766;
-    font-family:helvetica;
+    font-family:cursive;
+    color:white;
 }
 #title {
-    background-color:#30415d;
     text-align:center;
-    color:#CF6766;
-    font-family:helvetica;
+    color:#b31200;
+    font-family:cursive;
 }
 #boxa {
     background-color:#031424;
-    color:white;
-    font-family:helvetica;
+    color:#b31200;
+    font-family:cursive;
 }
 #boxb {
     background-color:#8EAEBD;
-    font-family:helvetica;
+    font-family:cursive;
+    color:#b31200;
 }
 h2 {
     text-align:center;
-    font-family:helvetica;
+    font-family:cursive;
+    color:White;
 }
 body {
+    background-image: url(http://wallpaperfav.com/wp-content/plugins/plixpress/includes/timthumb.php?src=http://wallpaperfav.com/wp-content/uploads/plixpapers1609/scratch_marks_wallpaper_background_20215.jpg&w=1024&h=768&a=c);
+    background-size: 2000px 1000px;
+    font-family:cursive;
     background-color:#CF6766;
-    font-family:helvetica;
 }
 #mycarousel {
     height:100px;
