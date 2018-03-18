@@ -1,0 +1,30 @@
+#title {color:#b82601;
+        background-color:#813772;
+        text-align: center;
+        font-family:Times;
+        font-size:75px;
+}
+#subtitle {color:#b82601;
+        background-color:#813772;
+        text-align: center;
+        font-family:Times;
+        font-size:50px;
+        
+}
+#resources {color:#b82601;
+        text-align: left;
+        font-family:Times;
+        font-size:12px;
+        background-color:#062f4f;
+}
+#section {color:#000000;
+        background-color:#b82601;
+        text-align:center;
+        font-family:Times;
+        font-size:20px;
+}
+#filler {background-color:#b82601;
+        color:#b82601;
+}
+p {font-size:14px;
+}
